@@ -14,24 +14,19 @@ function withBlockquote<T extends IDomEditor>(editor: T): T {
   newEditor.insertBreak = () => {
     const { selection } = newEditor
     if (selection == null) return insertBreak()
-
     const [nodeEntry] = Editor.nodes(editor, {
       match: n => DomEditor.checkNodeType(n, 'blockquote'),
       universal: true,
     })
     if (!nodeEntry) return insertBreak()
-
     const quoteElem = nodeEntry[0]
-    const quotePath = DomEditor.findPath(editor, quoteElem)
+    const quotePath = []
     const quoteEndLocation = Editor.end(editor, quotePath)
 
     if (Point.equals(quoteEndLocation, selection.focus)) {
       // 光标位于 blockquote 最后
       const str = Node.string(quoteElem)
-      if (str && str.slice(-1) === '\n') {
-        // blockquote 文本最后一个是 \n
-        editor.deleteBackward('character') // 删除最后一个 \n
-
+      if (str) {
         // 则插入一个 paragraph
         const p = { type: 'paragraph', children: [{ text: '' }] }
         Transforms.insertNodes(newEditor, p, { mode: 'highest' })

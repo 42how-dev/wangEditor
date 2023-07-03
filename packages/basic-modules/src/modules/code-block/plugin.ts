@@ -22,10 +22,45 @@ function getLastTextLineBeforeSelection(codeNode: SlateNode, editor: IDomEditor)
 
 function withCodeBlock<T extends IDomEditor>(editor: T): T {
   const { insertBreak, normalizeNode, insertData, insertNode } = editor
-  const newEditor = editor
+  let newEditor: any = editor
 
   // 重写换行操作
   newEditor.insertBreak = () => {
+    let filterValue: any = null
+    let num = 0
+    for (let i = 0; i < newEditor.history.undos[0]?.length; i++) {
+      if (newEditor.history.undos[0][i].type === 'split_node') {
+        num++
+      } else {
+        num = 0
+      }
+      if (
+        i + 1 < newEditor.history.undos[0]?.length &&
+        newEditor.history.undos[0][i + 1]?.type === 'insert_node' &&
+        num === 2
+      ) {
+        filterValue = newEditor.history.undos[0][i + 1]
+        break
+      }
+    }
+    const value = newEditor?.children?.map(item => {
+      if (item?.children[0]?.text === '\n') {
+        return {
+          ...item,
+          type: 'paragraph',
+          children: [{ text: '' }],
+        }
+      }
+      if (item?.children[0]?.text === filterValue?.node?.text) {
+        return {
+          ...item,
+          type: 'paragraph',
+          children: [{ text: filterValue?.node?.text }],
+        }
+      }
+      return item
+    })
+    newEditor.children = value
     const codeNode = DomEditor.getSelectedNodeByType(newEditor, 'code')
     if (codeNode == null) {
       insertBreak() // 执行默认的换行
