@@ -4,7 +4,7 @@
  */
 
 import { Editor, Transforms } from 'slate'
-import { IButtonMenu, IDomEditor, DomEditor, t } from '@42how/core'
+import { IButtonMenu, IDomEditor, DomEditor, t } from '@wangeditor/core'
 import { QUOTE_SVG } from '../../../constants/icon-svg'
 
 class BlockquoteMenu implements IButtonMenu {

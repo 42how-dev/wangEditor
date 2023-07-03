@@ -4,7 +4,7 @@
  */
 
 import { Node, Transforms, Range } from 'slate'
-import { DomEditor, IDomEditor } from '@42how/core'
+import { DomEditor, IDomEditor } from '@wangeditor/core'
 
 function withTodo<T extends IDomEditor>(editor: T): T {
   const { deleteBackward } = editor

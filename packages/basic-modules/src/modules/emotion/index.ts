@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModuleConf } from '@42how/core'
+import { IModuleConf } from '@wangeditor/core'
 import { emotionMenuConf } from './menu/index'
 
 const emotion: Partial<IModuleConf> = {

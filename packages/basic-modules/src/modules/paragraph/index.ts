@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModuleConf } from '@42how/core'
+import { IModuleConf } from '@wangeditor/core'
 import { renderParagraphConf } from './render-elem'
 import { pToHtmlConf } from './elem-to-html'
 import { parseParagraphHtmlConf } from './parse-elem-html'

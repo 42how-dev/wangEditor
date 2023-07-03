@@ -1,4 +1,4 @@
-import { IDomEditor } from '@42how/core'
+import { IDomEditor } from '@wangeditor/core'
 import * as basicModule from '@42how/basic-modules'
 import createEditor from '../../../tests/utils/create-editor'
 import withUploadImage from '../src/module/plugin'

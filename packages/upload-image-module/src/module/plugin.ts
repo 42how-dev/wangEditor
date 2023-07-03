@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IDomEditor } from '@42how/core'
+import { IDomEditor } from '@wangeditor/core'
 import { isInsertImageMenuDisabled } from '@42how/basic-modules'
 import uploadImages from './upload-images'
 

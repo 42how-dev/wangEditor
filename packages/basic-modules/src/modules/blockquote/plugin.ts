@@ -4,7 +4,7 @@
  */
 
 import { Editor, Transforms, Node, Point } from 'slate'
-import { IDomEditor, DomEditor } from '@42how/core'
+import { IDomEditor, DomEditor } from '@wangeditor/core'
 
 function withBlockquote<T extends IDomEditor>(editor: T): T {
   const { insertBreak, insertText } = editor

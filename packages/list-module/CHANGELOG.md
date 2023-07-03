@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.5](https://github.com/wangeditor-team/wangEditor/compare/@42how/list-module@1.0.4...@42how/list-module@1.0.5) (2022-09-27)
+## [1.0.5](https://github.com/wangeditor-team/wangEditor/compare/@wangeditor/list-module@1.0.4...@wangeditor/list-module@1.0.5) (2022-09-27)
 
 
 ### Bug Fixes
@@ -48,6 +48,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.4](https://github.com/wangeditor-team/wangEditor/compare/@42how/list-module@1.0.3...@42how/list-module@1.0.4) (2022-09-27)
+## [1.0.4](https://github.com/wangeditor-team/wangEditor/compare/@wangeditor/list-module@1.0.3...@wangeditor/list-module@1.0.4) (2022-09-27)
 
-**Note:** Version bump only for package @42how/list-module
+**Note:** Version bump only for package @wangeditor/list-module

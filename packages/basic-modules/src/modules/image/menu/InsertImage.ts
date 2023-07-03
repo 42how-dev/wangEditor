@@ -4,7 +4,13 @@
  */
 
 import { Node } from 'slate'
-import { IModalMenu, IDomEditor, genModalInputElems, genModalButtonElems, t } from '@42how/core'
+import {
+  IModalMenu,
+  IDomEditor,
+  genModalInputElems,
+  genModalButtonElems,
+  t,
+} from '@wangeditor/core'
 import $, { Dom7Array, DOMElement } from '../../../utils/dom'
 import { genRandomStr } from '../../../utils/util'
 import { IMAGE_SVG } from '../../../constants/icon-svg'

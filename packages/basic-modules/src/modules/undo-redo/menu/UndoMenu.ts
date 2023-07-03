@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IButtonMenu, IDomEditor, t } from '@42how/core'
+import { IButtonMenu, IDomEditor, t } from '@wangeditor/core'
 import { UNDO_SVG } from '../../../constants/icon-svg'
 
 class UndoMenu implements IButtonMenu {

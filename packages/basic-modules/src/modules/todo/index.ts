@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModuleConf } from '@42how/core'
+import { IModuleConf } from '@wangeditor/core'
 import { renderTodoConf } from './render-elem'
 import withTodo from './plugin'
 import { todoMenuConf } from './menu/index'

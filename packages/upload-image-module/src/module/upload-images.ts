@@ -4,7 +4,7 @@
  */
 
 import Uppy, { UppyFile } from '@uppy/core'
-import { IDomEditor, createUploader } from '@42how/core'
+import { IDomEditor, createUploader } from '@wangeditor/core'
 import { insertImageNode } from '@42how/basic-modules'
 import { IUploadConfigForImage } from './menu/config'
 

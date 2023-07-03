@@ -4,7 +4,7 @@
  */
 
 import { Descendant, Text } from 'slate'
-import { IDomEditor, DomEditor } from '@42how/core'
+import { IDomEditor, DomEditor } from '@wangeditor/core'
 import { TableCellElement, TableRowElement, TableElement } from './custom-types'
 import $, { getTagName, getStyleValue, DOMElement } from '../utils/dom'
 

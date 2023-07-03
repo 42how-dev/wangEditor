@@ -4,7 +4,7 @@
  */
 
 import { Element, Path, Editor } from 'slate'
-import { DomEditor } from '@42how/core'
+import { DomEditor } from '@wangeditor/core'
 import { ListItemElement } from './custom-types'
 import { ELEM_TO_EDITOR } from '../utils/maps'
 

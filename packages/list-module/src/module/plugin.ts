@@ -4,7 +4,7 @@
  */
 
 import { Editor, Transforms, Range } from 'slate'
-import { IDomEditor, DomEditor } from '@42how/core'
+import { IDomEditor, DomEditor } from '@wangeditor/core'
 import { ListItemElement } from './custom-types'
 
 /**

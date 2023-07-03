@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModuleConf } from '@42how/core'
+import { IModuleConf } from '@wangeditor/core'
 import { renderStyle } from './render-style'
 import { styleToHtml } from './style-to-html'
 import { lineHeightMenuConf } from './menu/index'

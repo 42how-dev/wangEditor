@@ -15,7 +15,7 @@ import {
   BaseText,
   Path,
 } from 'slate'
-import { IDomEditor, DomEditor } from '@42how/core'
+import { IDomEditor, DomEditor } from '@wangeditor/core'
 
 // table cell 内部的删除处理
 function deleteHandler(newEditor: IDomEditor): boolean {

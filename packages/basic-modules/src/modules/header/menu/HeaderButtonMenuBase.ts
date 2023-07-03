@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IButtonMenu, IDomEditor } from '@42how/core'
+import { IButtonMenu, IDomEditor } from '@wangeditor/core'
 import { getHeaderType, isMenuDisabled, setHeaderType } from '../helper'
 
 abstract class HeaderButtonMenuBase implements IButtonMenu {

@@ -4,7 +4,7 @@
  */
 
 import { Editor, Node, Transforms, Element } from 'slate'
-import { IButtonMenu, IDomEditor, DomEditor } from '@42how/core'
+import { IButtonMenu, IDomEditor, DomEditor } from '@wangeditor/core'
 import { ListItemElement } from '../custom-types'
 
 abstract class BaseMenu implements IButtonMenu {

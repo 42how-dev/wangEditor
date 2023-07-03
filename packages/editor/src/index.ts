@@ -4,7 +4,7 @@
  */
 
 import './assets/index.less'
-import '@42how/core/dist/css/style.css'
+import '@wangeditor/core/dist/css/style.css'
 
 // 兼容性（要放在最开始就执行）
 import './utils/browser-polyfill'
@@ -47,7 +47,7 @@ export {
   // 第三方模块 - 上传时用到
   createUploader,
   IUploadConfig,
-} from '@42how/core'
+} from '@wangeditor/core'
 
 // 导出 slate API 和接口 （需重命名，加 `Slate` 前缀）
 export {

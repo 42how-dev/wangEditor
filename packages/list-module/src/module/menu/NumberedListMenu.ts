@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { t } from '@42how/core'
+import { t } from '@wangeditor/core'
 import BaseMenu from './BaseMenu'
 import { NUMBERED_LIST_SVG } from '../../constants/svg'
 

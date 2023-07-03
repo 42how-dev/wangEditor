@@ -4,7 +4,7 @@
  */
 
 import { Descendant, Text } from 'slate'
-import { IDomEditor } from '@42how/core'
+import { IDomEditor } from '@wangeditor/core'
 import { TodoElement } from './custom-types'
 import $, { DOMElement } from '../../utils/dom'
 

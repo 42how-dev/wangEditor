@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModuleConf } from '@42how/core'
+import { IModuleConf } from '@wangeditor/core'
 import withVideo from './plugin'
 import { renderVideoConf } from './render-elem'
 import { videoToHtmlConf } from './elem-to-html'

@@ -4,7 +4,7 @@
  */
 
 import { Editor, Transforms } from 'slate'
-import { IDomEditor, DomEditor } from '@42how/core'
+import { IDomEditor, DomEditor } from '@wangeditor/core'
 
 function withHeader<T extends IDomEditor>(editor: T): T {
   const { insertBreak, insertNode } = editor

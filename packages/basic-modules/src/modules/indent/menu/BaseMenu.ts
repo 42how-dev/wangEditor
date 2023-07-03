@@ -4,7 +4,7 @@
  */
 
 import { Editor, Node } from 'slate'
-import { IButtonMenu, IDomEditor, DomEditor } from '@42how/core'
+import { IButtonMenu, IDomEditor, DomEditor } from '@wangeditor/core'
 
 abstract class BaseMenu implements IButtonMenu {
   abstract readonly title: string
