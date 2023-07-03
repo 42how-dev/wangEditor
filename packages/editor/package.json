@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor.git"
+    "url": "git+git@github.com:42how-dev/wangEditor.git"
   },
   "scripts": {
     "test": "jest",
@@ -49,8 +49,6 @@
     "url": "https://github.com/wangeditor-team/wangEditor/issues"
   },
   "dependencies": {
-    "@uppy/core": "^2.1.1",
-    "@uppy/xhr-upload": "^2.0.3",
     "@42how/basic-modules": "^1.1.7",
     "@42how/code-highlight": "^1.0.3",
     "@42how/core": "^1.1.19",
@@ -58,6 +56,8 @@
     "@42how/table-module": "^1.1.4",
     "@42how/upload-image-module": "^1.0.2",
     "@42how/video-module": "^1.1.4",
+    "@uppy/core": "^2.1.1",
+    "@uppy/xhr-upload": "^2.0.3",
     "dom7": "^3.0.0",
     "is-hotkey": "^0.2.0",
     "lodash.camelcase": "^4.3.0",
@@ -70,5 +70,6 @@
     "nanoid": "^3.2.0",
     "slate": "^0.72.0",
     "snabbdom": "^3.1.0"
-  }
+  },
+  "gitHead": "9025a1fe54a12fd5591863ec18f590c61d27388d"
 }
