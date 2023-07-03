@@ -4,7 +4,7 @@
  */
 
 import Boot from '../Boot'
-import { IModuleConf } from '@wangeditor/core'
+import { IModuleConf } from '@42how/core'
 
 function registerModule(module: Partial<IModuleConf>) {
   const {

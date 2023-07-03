@@ -3,8 +3,8 @@
  * @author wangfupeng
  */
 
-import { IDomEditor } from '@wangeditor/core'
-import { isInsertImageMenuDisabled } from '@wangeditor/basic-modules'
+import { IDomEditor } from '@42how/core'
+import { isInsertImageMenuDisabled } from '@42how/basic-modules'
 import uploadImages from './upload-images'
 
 function withUploadImage<T extends IDomEditor>(editor: T): T {

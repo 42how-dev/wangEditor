@@ -4,7 +4,7 @@
  */
 
 import { Editor, Element, Transforms } from 'slate'
-import { IButtonMenu, IDomEditor, DomEditor, t } from '@wangeditor/core'
+import { IButtonMenu, IDomEditor, DomEditor, t } from '@42how/core'
 import { CHECK_BOX_SVG } from '../../../constants/icon-svg'
 
 class TodoMenu implements IButtonMenu {

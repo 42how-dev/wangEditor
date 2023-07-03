@@ -8,7 +8,7 @@ import {
   tableToHtmlConf,
   tableRowToHtmlConf,
 } from '../src/module/elem-to-html'
-import * as core from '@wangeditor/core'
+import * as core from '@42how/core'
 import { Ancestor } from 'slate'
 
 describe('TableModule module', () => {

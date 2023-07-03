@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IUploadConfig } from '@wangeditor/core'
+import { IUploadConfig } from '@42how/core'
 
 type InsertFn = (src: string, alt: string, href: string) => void
 
